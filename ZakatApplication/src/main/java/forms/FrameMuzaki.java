@@ -260,18 +260,18 @@ public class FrameMuzaki extends javax.swing.JFrame {
         // TODO add your handling code here:
         int i = Integer.valueOf(txtindex.getText());
         String isiPesan =
-                "Kode Muzaki : "+data.getDatasetkdMuzaki().get(i)+
-                "Nama Muzaki :"+data.getDatasetnamaMuzaki().get(i)+
-                "Tempat Lahir :"+data.getDatasettempatLahir().get(i)+
-                "Alamat Lengkap :"+data.getDatasetalamatLengkap().get(i)+
-                "Jenis Kelamin :"+data.getDatasetjenisKelamin().get(i)+
-                "NIK :"+data.getDatasetnik().get(i)+
-                "Pekerjaan :"+data.getDatasetpekerjaan().get(i)+
-                "Status Perkawinan :"+data.getDatasetstatusPerkawinan().get(i)+
-                "Penghasilan :"+data.getDatasetnoTelp().get(i)+
-                "Telepon    :"+data.getDatasetnoTelp().get(i)+
-                "Email  :"+data.getDatasetemail().get(i)+
-                "Password :"+data.getDatasetpassword().get(i);
+                "\nKode Muzaki : "+data.getDatasetkdMuzaki().get(i)+
+                "\nNama Muzaki :"+data.getDatasetnamaMuzaki().get(i)+
+                "\nTempat Lahir :"+data.getDatasettempatLahir().get(i)+
+                "\nAlamat Lengkap :"+data.getDatasetalamatLengkap().get(i)+
+                "\nJenis Kelamin :"+data.getDatasetjenisKelamin().get(i)+
+                "\nNIK :"+data.getDatasetnik().get(i)+
+                "\nPekerjaan :"+data.getDatasetpekerjaan().get(i)+
+                "\nStatus Perkawinan :"+data.getDatasetstatusPerkawinan().get(i)+
+                "\nPenghasilan :"+data.getDatasetnoTelp().get(i)+
+                "\nTelepon    :"+data.getDatasetnoTelp().get(i)+
+                "\nEmail  :"+data.getDatasetemail().get(i)+
+                "\nPassword :"+data.getDatasetpassword().get(i);
                 
                 
     }//GEN-LAST:event_jButton2ActionPerformed

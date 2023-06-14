@@ -164,12 +164,12 @@ public class FrameAdmin extends javax.swing.JFrame {
         // TODO add your handling code here:
         int i = Integer.valueOf(txtindex.getText());
         String isiPesan =
-                "Id Admin : "+data.getrecordidAdmin().get(i)+
-                "Nama Admin : "+data.getDatasetNamaAdmin().get(i)+
-                "Jenis Kelamin :"+data.getDatasetjenisKelamin().get(i)+
-                "Username :"+data.getDatasetusername().get(i)+
-                "Password :"+data.getDatasetpassword().get(i)+
-                "Status :"+data.getDatasetstatus().get(i);
+                "\nId Admin : "+data.getrecordidAdmin().get(i)+
+                "\nNama Admin : "+data.getDatasetNamaAdmin().get(i)+
+                "\nJenis Kelamin :"+data.getDatasetjenisKelamin().get(i)+
+                "\nUsername :"+data.getDatasetusername().get(i)+
+                "\nPassword :"+data.getDatasetpassword().get(i)+
+                "\nStatus :"+data.getDatasetstatus().get(i);
         
     }//GEN-LAST:event_jButton2ActionPerformed
 

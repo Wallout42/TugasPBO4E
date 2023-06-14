@@ -216,14 +216,14 @@ public class FrameZakatKeluar extends javax.swing.JFrame {
         // TODO add your handling code here:
         int i = Integer.valueOf(txtindex.getText());
         String isiPesan =
-        "No Transaksi : "+data.getDatasetnoTransKeluar().get(i)+
-        "Kode Zakat : "+data.getDatasetkdZakat().get(i)+
-        "Kode Mustahik :"+data.getDatasetkdMustahik().get(i)+
-        "Jumlah Keluar :"+data.getDatasetjumlahKeluar().get(i)+
-        "Bentuk :"+data.getDatasetbentuk().get(i)+
-        "Tanggal Keluar :"+data.getDatasetnoTransKeluar().get(i)+
-        "Id Admin :"+data.getDatasetidAdmin().get(i)+
-        "Keterangan :"+data.getDatasetKeterangan().get(i);
+        "\nNo Transaksi : "+data.getDatasetnoTransKeluar().get(i)+
+        "\nKode Zakat : "+data.getDatasetkdZakat().get(i)+
+        "\nKode Mustahik :"+data.getDatasetkdMustahik().get(i)+
+        "\nJumlah Keluar :"+data.getDatasetjumlahKeluar().get(i)+
+        "\nBentuk :"+data.getDatasetbentuk().get(i)+
+        "\nTanggal Keluar :"+data.getDatasetnoTransKeluar().get(i)+
+        "\nId Admin :"+data.getDatasetidAdmin().get(i)+
+        "\nKeterangan :"+data.getDatasetKeterangan().get(i);
 
     }//GEN-LAST:event_jButton2ActionPerformed
 

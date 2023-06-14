@@ -268,17 +268,17 @@ public class FrameZakatMasuk extends javax.swing.JFrame {
         // TODO add your handling code here:
         int i = Integer.valueOf(txtindex.getText());
         String isiPesan =
-        "No Transaksi : "+data.getDatasetnoTransMasuk().get(i)+
-        "Kode Zakat : "+data.getDatasetkdZakat().get(i)+
-        "Kode Muzaki :"+data.getDatasetkdMuzaki().get(i)+
-        "Jumlah Masuk :"+data.getDatasetjumlahMasuk().get(i)+
-        "Bentuk :"+data.getDatasetbentuk().get(i)+
-        "Tanggal Masuk :"+data.getDatasettangalMasuk().get(i)+
-        "No Rek :"+data.getDatasetnoRek().get(i)+
-        "Bukti :"+data.getDatasetbukti().get(i)+
-        "Keterangan :"+data.getDatasetketerangan().get(i)+        
-        "Status :"+data.getDatasetstatus().get(i)+       
-        "Id Admin :"+data.getDatasetidAdmin().get(i);
+        "\nNo Transaksi : "+data.getDatasetnoTransMasuk().get(i)+
+        "\nKode Zakat : "+data.getDatasetkdZakat().get(i)+
+        "\nKode Muzaki :"+data.getDatasetkdMuzaki().get(i)+
+        "\nJumlah Masuk :"+data.getDatasetjumlahMasuk().get(i)+
+        "\nBentuk :"+data.getDatasetbentuk().get(i)+
+        "\nTanggal Masuk :"+data.getDatasettangalMasuk().get(i)+
+        "\nNo Rek :"+data.getDatasetnoRek().get(i)+
+        "\nBukti :"+data.getDatasetbukti().get(i)+
+        "\nKeterangan :"+data.getDatasetketerangan().get(i)+        
+        "\nStatus :"+data.getDatasetstatus().get(i)+       
+        "\nId Admin :"+data.getDatasetidAdmin().get(i);
         
     }//GEN-LAST:event_jButton2ActionPerformed
 

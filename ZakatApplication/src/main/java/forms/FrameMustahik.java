@@ -189,14 +189,14 @@ public class FrameMustahik extends javax.swing.JFrame {
         // TODO add your handling code here:
         int i = Integer.valueOf(txtindex.getText());
         String isiPesan =
-                "Kode Mustahik : "+data.getDatasetkdMustahik().get(i)+
-                "Nama Mustahik : "+data.getDatasetnamaMustahik().get(i)+
-                "NIK    : "+data.getDatasetnik().get(i)+
-                "Tempat Lahir :"+data.getDatasettempatLahir().get(i)+
-                "Tanggal Lahir :"+data.getDatasettanggalLahir().get(i)+
-                "Alamat :"+data.getDatasetalamat().get(i)+
-                "Jenis Kelamin :"+data.getDatasetjenisKelamin().get(i)+
-                "Golongan :"+data.getDatasetgolongan().get(i);
+                "\nKode Mustahik : "+data.getDatasetkdMustahik().get(i)+
+                "\nNama Mustahik : "+data.getDatasetnamaMustahik().get(i)+
+                "\nNIK    : "+data.getDatasetnik().get(i)+
+                "\nTempat Lahir :"+data.getDatasettempatLahir().get(i)+
+                "\nTanggal Lahir :"+data.getDatasettanggalLahir().get(i)+
+                "\nAlamat :"+data.getDatasetalamat().get(i)+
+                "\nJenis Kelamin :"+data.getDatasetjenisKelamin().get(i)+
+                "\nGolongan :"+data.getDatasetgolongan().get(i);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

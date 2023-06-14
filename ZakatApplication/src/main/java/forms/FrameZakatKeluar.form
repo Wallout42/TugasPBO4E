@@ -53,15 +53,13 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="txtketerangan" pref="138" max="32767" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="txtnotran" alignment="0" pref="138" max="32767" attributes="0"/>
-                                      <Component id="txtkdzakat" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txtkdmus" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txtjumlahkeluar" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txtbentuk" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txttglkeluar" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="txtidadmin" alignment="0" max="32767" attributes="0"/>
-                                  </Group>
+                                  <Component id="txtnotran" alignment="0" pref="138" max="32767" attributes="0"/>
+                                  <Component id="txtkdzakat" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtkdmus" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtjumlahkeluar" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtbentuk" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txttglkeluar" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtidadmin" alignment="0" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
