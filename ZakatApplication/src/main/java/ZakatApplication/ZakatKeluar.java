@@ -3,25 +3,24 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ZakatApplication;
-
 /**
  *
  * @author ACER
  */
-import java.util.Date;
 
 public class ZakatKeluar {
     private String noTransKeluar;
     private String kdZakat;
     private String kdMustahik;
-    private double jumlahKeluar;
+    private String jumlahKeluar;
     private String bentuk;
-    private Date tanggalKeluar;
+    private String tanggalKeluar;
     private String idAdmin;
-    private String keterangan;
+    private String Keterangan;
+    
 
-    public ZakatKeluar(String noTransKeluar, String kdZakat, String kdMustahik, double jumlahKeluar,
-                       String bentuk, Date tanggalKeluar, String idAdmin, String keterangan) {
+    public ZakatKeluar(String noTransKeluar, String kdZakat, String kdMustahik, String jumlahKeluar,
+                       String bentuk, String tanggalKeluar, String idAdmin, String Keterangan) {
         this.noTransKeluar = noTransKeluar;
         this.kdZakat = kdZakat;
         this.kdMustahik = kdMustahik;
@@ -29,7 +28,8 @@ public class ZakatKeluar {
         this.bentuk = bentuk;
         this.tanggalKeluar = tanggalKeluar;
         this.idAdmin = idAdmin;
-        this.keterangan = keterangan;
+        this.Keterangan = Keterangan;
+        
     }
 
     // Setter dan Getter untuk setiap atribut
@@ -58,11 +58,11 @@ public class ZakatKeluar {
         this.kdMustahik = kdMustahik;
     }
 
-    public double getJumlahKeluar() {
+    public String getJumlahKeluar() {
         return jumlahKeluar;
     }
 
-    public void setJumlahKeluar(double jumlahKeluar) {
+    public void setJumlahKeluar(String jumlahKeluar) {
         this.jumlahKeluar = jumlahKeluar;
     }
 
@@ -74,11 +74,11 @@ public class ZakatKeluar {
         this.bentuk = bentuk;
     }
 
-    public Date getTanggalKeluar() {
+    public String getTanggalKeluar() {
         return tanggalKeluar;
     }
 
-    public void setTanggalKeluar(Date tanggalKeluar) {
+    public void setTanggalKeluar(String tanggalKeluar) {
         this.tanggalKeluar = tanggalKeluar;
     }
 
@@ -89,14 +89,16 @@ public class ZakatKeluar {
     public void setIdAdmin(String idAdmin) {
         this.idAdmin = idAdmin;
     }
-
-    public String getKeterangan() {
-        return keterangan;
+    
+    public String Keterangan() {
+        return Keterangan;
     }
 
-    public void setKeterangan(String keterangan) {
-        this.keterangan = keterangan;
+    public void setKeterangan(String Keterangan) {
+        this.Keterangan = Keterangan;
     }
+
+    
 
     // Metode lainnya sesuai kebutuhan
 
@@ -108,7 +110,7 @@ public class ZakatKeluar {
         System.out.println("Bentuk: " + bentuk);
         System.out.println("Tanggal Keluar: " + tanggalKeluar);
         System.out.println("ID Admin: " + idAdmin);
-        System.out.println("Keterangan: " + keterangan);
+        System.out.println("Keterangan: " + Keterangan);
     }
 }
 

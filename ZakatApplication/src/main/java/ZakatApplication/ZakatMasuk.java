@@ -14,17 +14,18 @@ public class ZakatMasuk {
     private String noTransMasuk;
     private String kdZakat;
     private String kdMuzaki;
-    private double jumlahMasuk;
+    private String jumlahMasuk;
     private String bentuk;
-    private Date tanggalMasuk;
+    private String tanggalMasuk;
     private String noRek;
     private String bukti;
     private String keterangan;
     private String status;
     private String idAdmin;
+    
 
-    public ZakatMasuk(String noTransMasuk, String kdZakat, String kdMuzaki, double jumlahMasuk,
-                      String bentuk, Date tanggalMasuk, String noRek, String bukti,
+    public ZakatMasuk(String noTransMasuk, String kdZakat, String kdMuzaki, String jumlahMasuk,
+                      String bentuk, String tanggalMasuk, String noRek, String bukti,
                       String keterangan, String status, String idAdmin) {
         this.noTransMasuk = noTransMasuk;
         this.kdZakat = kdZakat;
@@ -37,6 +38,7 @@ public class ZakatMasuk {
         this.keterangan = keterangan;
         this.status = status;
         this.idAdmin = idAdmin;
+        
     }
 
     // Setter dan Getter untuk setiap atribut
@@ -65,11 +67,11 @@ public class ZakatMasuk {
         this.kdMuzaki = kdMuzaki;
     }
 
-    public double getJumlahMasuk() {
+    public String getJumlahMasuk() {
         return jumlahMasuk;
     }
 
-    public void setJumlahMasuk(double jumlahMasuk) {
+    public void setJumlahMasuk(String jumlahMasuk) {
         this.jumlahMasuk = jumlahMasuk;
     }
 
@@ -81,11 +83,11 @@ public class ZakatMasuk {
         this.bentuk = bentuk;
     }
 
-    public Date getTanggalMasuk() {
+    public String getTanggalMasuk() {
         return tanggalMasuk;
     }
 
-    public void setTanggalMasuk(Date tanggalMasuk) {
+    public void setTanggalMasuk(String tanggalMasuk) {
         this.tanggalMasuk = tanggalMasuk;
     }
 
@@ -120,14 +122,16 @@ public class ZakatMasuk {
     public void setStatus(String status) {
         this.status = status;
     }
-
-    public String getIdAdmin() {
+    
+    public String getidAdmin() {
         return idAdmin;
     }
 
-    public void setIdAdmin(String idAdmin) {
+    public void setidAdmin(String idAdmin) {
         this.idAdmin = idAdmin;
     }
+
+    
         public void displayZakatMasukInfo() {
         System.out.println("No. Transaksi Masuk: " + noTransMasuk);
         System.out.println("Kode Zakat: " + kdZakat);
@@ -135,8 +139,9 @@ public class ZakatMasuk {
         System.out.println("Jumlah Masuk: " + jumlahMasuk);
         System.out.println("Bentuk: " + bentuk);
         System.out.println("Tanggal Masuk: " + tanggalMasuk);
-        System.out.println("ID Admin: " + idAdmin);
         System.out.println("Keterangan: " + keterangan);
+        System.out.println("idAdmin: " + idAdmin);
+        
 }
 }
 

@@ -8,20 +8,19 @@ package ZakatApplication;
  *
  * @author ACER
  */
-import java.util.Date;
 
 public class Mustahik {
     private String kdMustahik;
     private String namaMustahik;
     private String nik;
     private String tempatLahir;
-    private Date tanggalLahir;
+    private String tanggalLahir;
     private String alamat;
     private String jenisKelamin;
     private String golongan;
 
     public Mustahik(String kdMustahik, String namaMustahik, String nik, String tempatLahir,
-                    Date tanggalLahir, String alamat, String jenisKelamin, String golongan) {
+                    String tanggalLahir, String alamat, String jenisKelamin, String golongan) {
         this.kdMustahik = kdMustahik;
         this.namaMustahik = namaMustahik;
         this.nik = nik;
@@ -30,6 +29,7 @@ public class Mustahik {
         this.alamat = alamat;
         this.jenisKelamin = jenisKelamin;
         this.golongan = golongan;
+        
     }
 
     // Setter dan Getter untuk setiap atribut
@@ -66,11 +66,11 @@ public class Mustahik {
         this.tempatLahir = tempatLahir;
     }
 
-    public Date getTanggalLahir() {
+    public String getTanggalLahir() {
         return tanggalLahir;
     }
 
-    public void setTanggalLahir(Date tanggalLahir) {
+    public void setTanggalLahir(String tanggalLahir) {
         this.tanggalLahir = tanggalLahir;
     }
 
@@ -89,12 +89,12 @@ public class Mustahik {
     public void setJenisKelamin(String jenisKelamin) {
         this.jenisKelamin = jenisKelamin;
     }
-
+    
     public String getGolongan() {
         return golongan;
     }
 
-    public void setGolongan(String golongan) {
+    public void setGolongan(String jenisKelamin) {
         this.golongan = golongan;
     }
 
@@ -109,6 +109,7 @@ public class Mustahik {
         System.out.println("Alamat: " + alamat);
         System.out.println("Jenis Kelamin: " + jenisKelamin);
         System.out.println("Golongan: " + golongan);
+        
     }
 }
 

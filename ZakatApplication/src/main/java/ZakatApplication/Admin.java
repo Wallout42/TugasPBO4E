@@ -25,6 +25,7 @@ public class Admin {
         this.status = status;
     }
     
+    
     // Setter dan Getter untuk setiap atribut
     
     public int getIdAdmin() {
@@ -71,18 +72,19 @@ public class Admin {
         return status;
     }
     
-    public void setStatus(String status) {
-        this.status = status;
+    public void setStatus(String Status) {
+        this.status = Status;
     }
-        
+    
         public void displayinfo(){    
         System.out.println("Informasi Admin:" + idAdmin );
         System.out.println("ID Admin: " + namaAdmin);
         System.out.println("Nama Admin: " + jenisKelamin);
         System.out.println("Jenis Kelamin: " + username);
         System.out.println("Username: " + password);
-        System.out.println("Password: " + status);
-    }
+        System.out.println("Status: " + status);
+        
+            }
 }
 
 

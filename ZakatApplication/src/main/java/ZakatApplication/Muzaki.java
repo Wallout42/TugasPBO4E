@@ -8,27 +8,27 @@ package ZakatApplication;
  *
  * @author ACER
  */
-import java.util.Date;
 
 public class Muzaki {
     private String kdMuzaki;
     private String namaMuzaki;
     private String tempatLahir;
-    private Date tanggalLahir;
+    private String tanggalLahir;
     private String alamatLengkap;
     private String jenisKelamin;
     private String nik;
     private String pekerjaan;
     private String statusPerkawinan;
-    private double penghasilan;
+    private String penghasilan;
     private String noTelp;
     private String email;
     private String username;
     private String password;
+    
 
-    public Muzaki(String kdMuzaki, String namaMuzaki, String tempatLahir, Date tanggalLahir,
+    public Muzaki(String kdMuzaki, String namaMuzaki, String tempatLahir, String tanggalLahir,
                   String alamatLengkap, String jenisKelamin, String nik, String pekerjaan,
-                  String statusPerkawinan, double penghasilan, String noTelp, String email,
+                  String statusPerkawinan, String penghasilan, String noTelp, String email,
                   String username, String password) {
         this.kdMuzaki = kdMuzaki;
         this.namaMuzaki = namaMuzaki;
@@ -44,6 +44,7 @@ public class Muzaki {
         this.email = email;
         this.username = username;
         this.password = password;
+        
     }
 
     // Setter dan Getter untuk setiap atribut
@@ -72,11 +73,11 @@ public class Muzaki {
         this.tempatLahir = tempatLahir;
     }
 
-    public Date getTanggalLahir() {
+    public String getTanggalLahir() {
         return tanggalLahir;
     }
 
-    public void setTanggalLahir(Date tanggalLahir) {
+    public void setTanggalLahir(String tanggalLahir) {
         this.tanggalLahir = tanggalLahir;
     }
 
@@ -119,11 +120,11 @@ public class Muzaki {
     public void setStatusPerkawinan(String statusPerkawinan) {
         this.statusPerkawinan = statusPerkawinan;
                 }
-    public double getPenghasilan() {
+    public String getPenghasilan() {
         return penghasilan;
     }
 
-    public void setPenghasilan(double penghasilan) {
+    public void setPenghasilan(String penghasilan) {
         this.penghasilan = penghasilan;
     }
 
@@ -158,6 +159,7 @@ public class Muzaki {
     public void setPassword(String password) {
         this.password = password;
     }
+    
 
     // Metode lainnya sesuai kebutuhan
 
@@ -176,5 +178,6 @@ public class Muzaki {
         System.out.println("Email: " + email);
         System.out.println("Username: " + username);
         System.out.println("Password: " + password);
+             
     }
 }

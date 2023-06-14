@@ -12,10 +12,10 @@ public class Zakat {
     private String kdZakat;
     private String namaZakat;
     private String bentuk;
-    private double saldo;
+    private String saldo;
     private String keterangan;
 
-    public Zakat(String kdZakat, String namaZakat, String bentuk, double saldo, String keterangan) {
+    public Zakat(String kdZakat, String namaZakat, String bentuk, String saldo, String keterangan) {
         this.kdZakat = kdZakat;
         this.namaZakat = namaZakat;
         this.bentuk = bentuk;
@@ -49,11 +49,11 @@ public class Zakat {
         this.bentuk = bentuk;
     }
 
-    public double getSaldo() {
+    public String getSaldo() {
         return saldo;
     }
 
-    public void setSaldo(double saldo) {
+    public void setSaldo(String saldo) {
         this.saldo = saldo;
     }
 
