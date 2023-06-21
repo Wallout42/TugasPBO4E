@@ -272,6 +272,8 @@ public class FrameMuzaki extends javax.swing.JFrame {
                 "\nTelepon    :"+data.getDatasetnoTelp().get(i)+
                 "\nEmail  :"+data.getDatasetemail().get(i)+
                 "\nPassword :"+data.getDatasetpassword().get(i);
+        
+        JOptionPane.showMessageDialog(this,isiPesan);
                 
                 
     }//GEN-LAST:event_jButton2ActionPerformed

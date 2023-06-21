@@ -171,6 +171,8 @@ public class FrameAdmin extends javax.swing.JFrame {
                 "\nPassword :"+data.getDatasetpassword().get(i)+
                 "\nStatus :"+data.getDatasetstatus().get(i);
         
+        JOptionPane.showMessageDialog(this,isiPesan);
+        
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

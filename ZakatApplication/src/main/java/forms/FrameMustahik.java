@@ -197,6 +197,8 @@ public class FrameMustahik extends javax.swing.JFrame {
                 "\nAlamat :"+data.getDatasetalamat().get(i)+
                 "\nJenis Kelamin :"+data.getDatasetjenisKelamin().get(i)+
                 "\nGolongan :"+data.getDatasetgolongan().get(i);
+        
+        JOptionPane.showMessageDialog(this,isiPesan);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

@@ -170,11 +170,13 @@ public class FrameZakat extends javax.swing.JFrame {
         // TODO add your handling code here:
         int i = Integer.valueOf(txtindex.getText());
         String isiPesan =
-        "Kode Zakat : "+data.getDatasetkdZakat().get(i)+
-        "Nama Zakat : "+data.getDatasetnamaZakat().get(i)+
-        "Bentuk :"+data.getDatasetbentuk().get(i)+
-        "Saldo :"+data.getDatasetsaldo().get(i)+
-        "Keterangan :"+data.getDatasetketerangan().get(i);
+        "\nKode Zakat : "+data.getDatasetkdZakat().get(i)+
+        "\nNama Zakat : "+data.getDatasetnamaZakat().get(i)+
+        "\nBentuk :"+data.getDatasetbentuk().get(i)+
+        "\nSaldo :"+data.getDatasetsaldo().get(i)+
+        "\nKeterangan :"+data.getDatasetketerangan().get(i);
+        
+        JOptionPane.showMessageDialog(this,isiPesan);
         
 
     }//GEN-LAST:event_jButton2ActionPerformed

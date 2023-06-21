@@ -224,6 +224,8 @@ public class FrameZakatKeluar extends javax.swing.JFrame {
         "\nTanggal Keluar :"+data.getDatasetnoTransKeluar().get(i)+
         "\nId Admin :"+data.getDatasetidAdmin().get(i)+
         "\nKeterangan :"+data.getDatasetKeterangan().get(i);
+        
+        JOptionPane.showMessageDialog(this,isiPesan);
 
     }//GEN-LAST:event_jButton2ActionPerformed
 
